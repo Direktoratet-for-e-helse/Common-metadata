@@ -1,4 +1,4 @@
-remote_theme: just-the-docs/just-the-docs
+remote_theme: Direktoratet-for-e-helse/just-the-docs
 logo: images/logo.png
 title: Common metadata
 exclude: README.md
