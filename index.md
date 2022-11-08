@@ -15,7 +15,14 @@ Work in progress
 
 ## Status
 
-The status of the product indicates where in the release cycle the product is at the moment of publication. 
+The status of the product indicates where in the release cycle the product is at the moment of publication.  
+Work in progress {: .label .label-yellow }  
+Prerelease {: .label .label-purple }
+Release {: .label .label-green }
+Normative {: .label .label-blue }
+Normative {: .label .label-light-blue }
+Deprecated {: .label .label-red }
+
 
 | Status | Description |
 |:-------------|:------------------|
@@ -23,6 +30,7 @@ The status of the product indicates where in the release cycle the product is at
 | Prerelease | Prerelease version of the published product, SHOULD have version number and proposed normative level of the finished product |
 | Release | A release version of the product, metadata MUST indicate normative level and version number |
 | Normative | Normative version published by e-helse, metadata MUST indicate normative level and version number |
+| Deprecated | A deprecated version of the product, SHOULD have version number and proposed normative level of the finished product, if the product is superceded by a new product this hould be indicated by the documentation | 
 
 ## Maturity level
 
