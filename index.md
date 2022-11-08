@@ -16,6 +16,7 @@ Work in progress
 ## Status
 
 The status of the product indicates where in the release cycle the product is at the moment of publication.  
+
 Work in progress 
 {: .label .label-yellow }  
 Prerelease 
@@ -25,7 +26,7 @@ Release
 Normative 
 {: .label .label-blue }
 Normative 
-{: .label .label-light-blue }
+{: .label .label-orange }
 Deprecated 
 {: .label .label-red }
 
