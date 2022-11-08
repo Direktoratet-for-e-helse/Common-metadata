@@ -9,7 +9,7 @@ Work in progress
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.1 | draft | N/A |
+| Work in progress | v0.2 | draft | N/A |
 
 # Common metadata for e-helse documentation
 
@@ -19,8 +19,7 @@ The status of the product indicates where in the release cycle the product is at
 
 | Status | Description |
 |:-------------|:------------------|
-| Work in progress | Product is in active development |
-| QA version | QA version of the product for commenting, COULD indicate planned normative level of the finished product |
+| Work in progress | Product is in active development, COULD indicate planned normative level of the finished product |
 | Prerelease | Prerelease version of the published product, SHOULD have version number and proposed normative level of the finished product |
 | Release | A release version of the product, metadata MUST indicate normative level and version number |
 | Normative | Normative version published by e-helse, metadata MUST indicate normative level and version number |
