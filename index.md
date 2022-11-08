@@ -25,8 +25,6 @@ Release
 {: .label .label-green }
 Normative 
 {: .label .label-blue }
-Normative 
-{: .label .label-orange }
 Deprecated 
 {: .label .label-red }
 
