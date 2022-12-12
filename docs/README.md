@@ -4,12 +4,9 @@ title: Common metadata
 nav_order: 1
 ---
 
-Work in progress 
-{: .label .label-yellow }
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.2 | draft | N/A |
+|  <span style="background-color:yellow">Work in progress</span> | v0.3 | draft | N/A |
 
 # Common metadata for e-helse documentation
 
@@ -17,17 +14,11 @@ Work in progress
 
 The status of the product indicates where in the release cycle the product is at the moment of publication.  
 
-Work in progress 
-{: .label .label-yellow }  
-Prerelease 
-{: .label .label-purple }
-Release 
-{: .label .label-green }
-Normative 
-{: .label .label-blue }
-Deprecated 
-{: .label .label-red }
-
+ <span style="background-color:yellow">Work in progress</span>  
+ <span style="background-color:purple">Prerelease</span>  
+ <span style="background-color:green">Release</span>  
+ <span style="background-color:blue">Normative</span>  
+ <span style="background-color:red">Deprecated</span>  
 
 | Status | Description |
 |:-------------|:------------------|
