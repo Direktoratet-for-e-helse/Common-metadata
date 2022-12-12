@@ -6,7 +6,7 @@ nav_order: 1
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-|  <span style="background-color:yellow">Work in progress</span> | v0.3 | draft | N/A |
+|  <span style="background-color:gold">Work in progress</span> | v0.3 | draft | N/A |
 
 # Common metadata for e-helse documentation
 
@@ -16,11 +16,11 @@ Status and maturity level explained.
 
 The status of the product indicates where in the release cycle the product is at the moment of publication.  
 
- <span style="background-color:yellow">Work in progress</span>  
- <span style="background-color:light-purple">Prerelease</span>  
- <span style="background-color:green">Release</span>  
- <span style="background-color:light-blue">Normative</span>  
- <span style="background-color:red">Deprecated</span>  
+ <span style="background-color:gold">Work in progress</span>  
+ <span style="background-color:BlueViolet">Prerelease</span>  
+ <span style="background-color:LimeGreen">Release</span>  
+ <span style="background-color:CornflowerBlue">Normative</span>  
+ <span style="background-color:OrangeRed">Deprecated</span>  
 
 | Status | Description |
 |:-------------|:------------------|
