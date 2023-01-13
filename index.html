@@ -272,6 +272,19 @@
     Status
   </a>
   
+    <nav class="md-nav" aria-label="Status">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#code-blocks-for-color-coding" class="md-nav__link">
+    Code blocks for color coding
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -359,7 +372,7 @@
 <tbody>
 <tr>
 <td align="left"><span style="background-color:gold">Work in progress</span></td>
-<td align="left">v0.5</td>
+<td align="left">v0.6</td>
 <td align="left">draft</td>
 <td align="left">ikke normert/skal ikke normeres</td>
 </tr>
@@ -368,6 +381,38 @@
 <p>Status and maturity level explained.</p>
 <h2 id="status">Status</h2>
 <p>The status of the product indicates where in the release cycle the product is at the moment of publication.  </p>
+<table>
+<thead>
+<tr>
+<th align="left">Status</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span style="background-color:gold">Work in progress</span></td>
+<td align="left">Product is in active development, COULD indicate planned normative level of the finished product.</td>
+</tr>
+<tr>
+<td align="left"><span style="background-color:BlueViolet">Prerelease</span></td>
+<td align="left">Prerelease version of the published product, SHOULD have version number and proposed normative level of the finished product.</td>
+</tr>
+<tr>
+<td align="left"><span style="background-color:LimeGreen">Release</span></td>
+<td align="left">A release version of the product, metadata MUST indicate normative level and version number. A release version is indicated as a separate version of the product in the release publication list and MUST be available for latere reference.</td>
+</tr>
+<tr>
+<td align="left"><span style="background-color:CornflowerBlue">Normative</span></td>
+<td align="left">Normative version published by e-helse, metadata MUST indicate normative level and version number. A normative version is indicated as a separate version of the product in the release publication list and MUST be available for latere reference. A normative version has been subject of the formal normalization process documented by Direktoratet for e-helse</td>
+</tr>
+<tr>
+<td align="left"><span style="background-color:OrangeRed">Deprecated</span></td>
+<td align="left">A deprecated version of the product, SHOULD have version number and proposed normative level of the finished product, if the product is superceded by a new product this hould be indicated by the documentation.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="code-blocks-for-color-coding">Code blocks for color coding</h3>
+<p>A simple html code block is used for the color coding of the different status categories:</p>
 <p><span style="background-color:gold">Work in progress</span>  </p>
 <pre><code class="language-md">&lt;span style=&quot;background-color:gold&quot;&gt;Work in progress&lt;/span&gt;
 </code></pre>
@@ -383,36 +428,6 @@
 <p><span style="background-color:OrangeRed">Deprecated</span>  </p>
 <pre><code class="language-md">&lt;span style=&quot;background-color:OrangeRed&quot;&gt;Deprecated&lt;/span&gt;  
 </code></pre>
-<table>
-<thead>
-<tr>
-<th align="left">Status</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><span style="background-color:gold">Work in progress</span></td>
-<td align="left">Product is in active development, COULD indicate planned normative level of the finished product</td>
-</tr>
-<tr>
-<td align="left">Prerelease</td>
-<td align="left">Prerelease version of the published product, SHOULD have version number and proposed normative level of the finished product</td>
-</tr>
-<tr>
-<td align="left">Release</td>
-<td align="left">A release version of the product, metadata MUST indicate normative level and version number</td>
-</tr>
-<tr>
-<td align="left">Normative</td>
-<td align="left">Normative version published by e-helse, metadata MUST indicate normative level and version number</td>
-</tr>
-<tr>
-<td align="left">Deprecated</td>
-<td align="left">A deprecated version of the product, SHOULD have version number and proposed normative level of the finished product, if the product is superceded by a new product this hould be indicated by the documentation</td>
-</tr>
-</tbody>
-</table>
 <h2 id="maturity-level">Maturity level</h2>
 <p>Each part/artifact of a publication can have different maturity based on the level and types of review it has been subject to.</p>
 <table>
