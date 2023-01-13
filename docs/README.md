@@ -1,6 +1,6 @@
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-|  <span style="background-color:gold">Work in progress</span> | v0.5 | draft | ikke normert/skal ikke normeres |
+|  <span style="background-color:gold">Work in progress</span> | v0.6 | draft | ikke normert/skal ikke normeres |
 
 Status and maturity level explained.
 
@@ -8,7 +8,19 @@ Status and maturity level explained.
 
 The status of the product indicates where in the release cycle the product is at the moment of publication.  
 
- <span style="background-color:gold">Work in progress</span>  
+| Status | Description |
+|:-------------|:------------------|
+| <span style="background-color:gold">Work in progress</span>   | Product is in active development, COULD indicate planned normative level of the finished product. |
+| <span style="background-color:BlueViolet">Prerelease</span> | Prerelease version of the published product, SHOULD have version number and proposed normative level of the finished product. |
+| <span style="background-color:LimeGreen">Release</span> | A release version of the product, metadata MUST indicate normative level and version number. A release version is indicated as a separate version of the product in the release publication list and MUST be available for latere reference. |
+| <span style="background-color:CornflowerBlue">Normative</span> | Normative version published by e-helse, metadata MUST indicate normative level and version number. A normative version is indicated as a separate version of the product in the release publication list and MUST be available for latere reference. A normative version has been subject of the formal normalization process documented by Direktoratet for e-helse |
+| <span style="background-color:OrangeRed">Deprecated</span> | A deprecated version of the product, SHOULD have version number and proposed normative level of the finished product, if the product is superceded by a new product this hould be indicated by the documentation. |
+
+### Code blocks for color coding
+
+A simple html code block is used for the color coding of the different status categories:
+
+<span style="background-color:gold">Work in progress</span>  
 
 ~~~md
 <span style="background-color:gold">Work in progress</span>
@@ -37,14 +49,6 @@ The status of the product indicates where in the release cycle the product is at
 ~~~md
 <span style="background-color:OrangeRed">Deprecated</span>  
 ~~~
-
-| Status | Description |
-|:-------------|:------------------|
-| <span style="background-color:gold">Work in progress</span>   | Product is in active development, COULD indicate planned normative level of the finished product |
-| Prerelease | Prerelease version of the published product, SHOULD have version number and proposed normative level of the finished product |
-| Release | A release version of the product, metadata MUST indicate normative level and version number |
-| Normative | Normative version published by e-helse, metadata MUST indicate normative level and version number |
-| Deprecated | A deprecated version of the product, SHOULD have version number and proposed normative level of the finished product, if the product is superceded by a new product this hould be indicated by the documentation |
 
 ## Maturity level
 
